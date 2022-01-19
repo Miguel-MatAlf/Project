@@ -1,0 +1,89 @@
+{
+	"configuration":{
+		"browser": "chrome",
+		"url" : "https://finance.yahoo.com/quote/ORCL?p=ORCL"
+	},
+	"landingPage": {
+		"title":"Oracle Corporation (ORCL) Stock Price, News, Quote & History - Yahoo Finance",
+		"headerText":"Oracle Corporation (ORCL)",
+		"header":"//h1",
+		"summaryTab":"(//ul/li/a[@role])[1]",
+		"chartTab":"(//ul/li/a[@role])[2]",
+		"conversationsTab":"(//ul/li/a[@role])[3]",
+		"statisticsTab":"(//ul/li/a[@role])[4]",
+		"historicalTab":"(//ul/li/a[@role])[5]",
+		"profileTab":"(//ul/li/a[@role])[6]",
+		"financialsTab":"(//ul/li/a[@role])[7]",
+		"analysisTab":"(//ul/li/a[@role])[8]",
+		"optionsTab":"(//ul/li/a[@role])[9]",
+		"holdersTab":"(//ul/li/a[@role])[10]",
+		"sustainabilityTab":"(//ul/li/a[@role])[11]"
+	},
+	"summaryTab":{
+		"summaryTable":"//div[@id='quote-summary']",
+		"headerText":"Oracle Corporation (ORCL)",
+		"header":"//h1",
+		"previousClose":"//span[contains(text(), 'Previous Close')]",
+		"open":"//span[contains(text(), 'Open')]",
+		"bid":"//span[contains(text(), 'Bid')]",
+		"ask":"//span[contains(text(), 'Ask')]",
+		"daysRange":"//span[contains(text(), 'Day')]",
+		"weekRange":"//span[contains(text(), '52 Week Range')]",
+		"volume":"//span[contains(text(), 'Volume')]",
+		"avgVolume":"//span[contains(text(), 'Avg. Volume')]",
+		"marketCap":"//span[contains(text(), 'Market Cap')]",
+		"betaMonthly":"//span[contains(text(), 'Beta (5Y Monthly)')]",
+		"PERatioTTM":"//span[contains(text(), 'PE Ratio (TTM)')]",
+		"EPSTTM":"//span[contains(text(), 'EPS (TTM)')]",
+		"earningsDate":"//span[contains(text(), 'Earnings Date')]",
+		"forwardDividendYield":"//span[contains(text(), 'Forward Dividend & Yield')]",
+		"exDividendDate":"//span[contains(text(), 'Ex-Dividend Date')]",
+		"targetEst":"//span[contains(text(), '1y Target Est')]",
+		"fullScreenBtn":"//a[@href='/chart/ORCL']/span",
+		"backBtn":"//header/div[@class]/button[@class]"
+	},
+	"chartTab":{
+		"indicators":"(//span/div/div[@class])[1]",
+		"comparison":"(//span/div/div[@class])[2]"
+	},
+	"conversationsTab":{
+		"signInText":"Sign in to post a message.",
+		"inputText":"//span[contains(text(), 'Sign in to post')]"
+	},
+	"statisticsTab":{
+		"valuationMeasures":"//span[contains(text(), 'Valuation Measures')]",
+		"valuationMeasuresText":"Valuation Measures"
+	},
+	"historicalTab":{
+		"currency":"//span/span[contains(text(), 'Currency in USD')]",
+		"currencyText":"Currency in USD"
+	},
+	"profileTab":{
+		"header":"//h3[contains(text(), 'Oracle Corporation')]",
+		"headerText":"Oracle Corporation"
+	},
+	"financialsTab":{
+		"header":"//h3/span[contains(text(), 'Income Statement')]",
+		"headerText":"Income Statement"
+	},
+	"analysisTab":{
+		"earningsEstimate":"//span[contains(text(), 'Earnings Estimate')]",
+		"earningsEstimateText":"Earnings Estimate"
+	},
+	"optionsTab":{
+		"calls":"//span[contains(text(), 'Calls')]",
+		"callsText":"Calls"
+	},
+	"holdersTab":{
+		"majorHoldersTab":"//div/*[contains(text(), 'Major Holders')]",
+		"majorHoldersTabText":"Major Holders",
+		"insiderRosterTab":"//div/*[contains(text(), 'Insider Roster')]",
+		"insiderRosterTabText":"Insider Roster",
+		"insiderTransactionsTab":"//div/*[contains(text(), 'Insider Transactions')]",
+		"insiderTransactionsTabText":"Insider Transactions"
+	},
+	"sustainabilityTab":{
+		"header":"//h3/span[contains(text(), 'Environment')]",
+		"headerText":"Environment, Social and Governance (ESG) Risk Ratings"
+	}
+}

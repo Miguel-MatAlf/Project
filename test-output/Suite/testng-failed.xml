@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="testScenarios.SummaryScenario">
+        <methods>
+          <include name="goToURL"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testScenarios.SummaryScenario -->
+      <class name="testScenarios.OptionsScenario">
+        <methods>
+          <include name="tearDown"/>
+          <include name="goToURL"/>
+        </methods>
+      </class> <!-- testScenarios.OptionsScenario -->
+      <class name="testScenarios.StatisticsScenario">
+        <methods>
+          <include name="tearDown"/>
+          <include name="goToURL"/>
+        </methods>
+      </class> <!-- testScenarios.StatisticsScenario -->
+      <class name="testScenarios.AnalysisScenario">
+        <methods>
+          <include name="tearDown"/>
+          <include name="goToURL"/>
+        </methods>
+      </class> <!-- testScenarios.AnalysisScenario -->
+      <class name="testScenarios.SustainabilityScenario">
+        <methods>
+          <include name="tearDown"/>
+          <include name="goToURL"/>
+        </methods>
+      </class> <!-- testScenarios.SustainabilityScenario -->
+      <class name="testScenarios.HistoricalScenario">
+        <methods>
+          <include name="tearDown"/>
+          <include name="goToURL"/>
+        </methods>
+      </class> <!-- testScenarios.HistoricalScenario -->
+      <class name="testScenarios.ConversationsScenario">
+        <methods>
+          <include name="tearDown"/>
+          <include name="goToURL"/>
+          <include name="verifyConversationsTabs"/>
+        </methods>
+      </class> <!-- testScenarios.ConversationsScenario -->
+      <class name="testScenarios.FinancialsScenario">
+        <methods>
+          <include name="verifyFinancialsTab"/>
+          <include name="goToURL"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testScenarios.FinancialsScenario -->
+      <class name="testScenarios.ChartScenario">
+        <methods>
+          <include name="tearDown"/>
+          <include name="goToURL"/>
+        </methods>
+      </class> <!-- testScenarios.ChartScenario -->
+      <class name="testScenarios.HoldersScenario">
+        <methods>
+          <include name="tearDown"/>
+          <include name="goToURL"/>
+        </methods>
+      </class> <!-- testScenarios.HoldersScenario -->
+      <class name="testScenarios.ProfileScenario">
+        <methods>
+          <include name="goToURL"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testScenarios.ProfileScenario -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
